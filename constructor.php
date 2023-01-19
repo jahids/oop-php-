@@ -15,7 +15,6 @@ class Human
         echo "Assalamu Alaikum hi\n";
         $this->sayname();
     }
-
     private function sayname()
     {
         echo "my name is {$this->name}\n";

@@ -2,14 +2,12 @@
 
 class bank
 {
-
     private $amount = 0;
 
     function addMoney($x)
     {
         $this->amount += $x;
     }
-
     function getMoney($x)
     {
         $this->amount -= $x;
